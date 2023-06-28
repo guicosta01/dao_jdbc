@@ -11,10 +11,11 @@ public class Department implements Serializable{
 	private Integer id;
 	private String name;
 	
-	//construtor com std
+	//construtor  std
 	public Department () {
 	}
 
+	//construtor com args
 	public Department(Integer id, String name) {
 		//this se refere aos atributos
 		this.id = id;
